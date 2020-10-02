@@ -17,8 +17,19 @@ reps:{type:Number},
 duration:{type:Number},
 distance:{type:Number}
   }]
-});
+},
+{    toJSON: {virtuals: true  }  }
+);
+
+
+
+ExampleSchema.virtual("totalDuration").get(function () {  // "reduce" array of exercises down to just the sum of their durations
+return this.exercises.reduce((total, exercise) => {    return total + exercise.duration;  }, 0);});
+
+
 
 const Example = mongoose.model("Workout", ExampleSchema);
+
+
 
 module.exports = Example;
