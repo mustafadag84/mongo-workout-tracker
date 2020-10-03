@@ -1,58 +1,25 @@
 # mongo-workouttracker
-# Unit 17 Nosql Homework: Workout Tracker
+# Description
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+In this assignment, I created a workout tracker. This assignment required to create Mongo database with a Mongoose schema and handle routes with Express.
 
-## User Story
+## Usage
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+* As a user, you want to be able to view create and track daily workouts. You want to be able to log multiple exercises in a workout on a given day. You should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, you should be able to track my distance traveled.
 
 ## Business Context
 
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-## Acceptance Criteria
+## Screenshots
+![Screenshot (262)](https://user-images.githubusercontent.com/63365781/94999037-6d269880-0584-11eb-9711-a1d70252a9c5.png)
+![Screenshot (264)](https://user-images.githubusercontent.com/63365781/94999038-6ef05c00-0584-11eb-8d35-9e9788e3fa10.png)
+![Screenshot (263)](https://user-images.githubusercontent.com/63365781/94999040-7283e300-0584-11eb-91f0-bc89aaf3d656.png)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Links:
 
-The user should be able to:
+* The URL to the deployed application:
+* https://serene-lake-63297.herokuapp.com/?id=5f78c18fc1678a001767b6da
 
-  * Add exercises to a previous workout plan.
-
-  * Add new exercises to a new workout plan.
-
-  * View the combined weight of multiple exercises on the `stats` page.
-
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
-
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
-
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+* The URL to the GitHub repository:
+*  https://github.com/mustafadag84/mongo-workout-tracker
