@@ -1,4 +1,4 @@
-# mongo-workouttracker
+# mongo-workout-tracker
 # Description
 
 In this assignment, I created a workout tracker. This assignment required to create Mongo database with a Mongoose schema and handle routes with Express.
